@@ -40,7 +40,7 @@ SType FSM[10]= {
   {B10010001, 300, {off2, off2,off2, off2,off2, off2,off2, off2}},//on1
   {B10010000, 300, {on2, on2,on2, on2,on2, on2,on2, on2}},//off2
   {B10010001, 300, {off3, off3,off3, off3,off3, off3,off3, off3}},//on2,
-  {B10010001, 300, {goN, goE, goN, goN, goE, goN, goN, goN}}
+  {B10010001, 300, {goN, goE, goN, goN, goE, goN, goN, goN}} //off3
   };
 
 unsigned long ST=0; // index to the current state
